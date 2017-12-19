@@ -1,14 +1,10 @@
 # Degree
-- degree: Associates Degree, Business Management
-  uni: Springfield College
-  year: 1984 &mdash; 1986
-  awards:
-    - award: Quickest to fall asleep
-    - award: Fastest donut eater
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: PhD in Physics
+  uni: Purdue University
+  year: 2015
+  gpa: 3.92 / 4.0
 
-- degree: High School Diploma
-  uni: Springfield High
-  year: 1984
-  award: Least likely to graduate College
-  summary: You can choose to have either a single or multiple awards
+- degree: BA in Physics, Minor in Math
+  uni: Goshen College
+  year: 2008
+  gpa: 3.82 / 4.0

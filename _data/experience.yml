@@ -1,19 +1,35 @@
 # Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+# Congruity Works
+- company: Congruity Works
+  position: Web Development and Support
+  duration: Aug, 2017 &mdash; Present
+  summary: Provided support and development for wordpress and drupal sites using html, css, javascript and php.
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# PhD and Postdoctoral Research
+- company: Purdue University
+  position: PhD and Postdoctoral Researcher
+  duration:  Jan, 2011 &mdash; Jul, 2017
+  summary: >
+    <ul class="resume-item-list">
+    <li>Developed novel computational methods
+     within the field of density functional theory</li>
+    <li>Translated abstract ideas into custom MATLAB software for use in
+    research</li>
+    <li>Wrote MATLAB software to solve problems involving ODEs and PDEs
+    as well as corresponding inverse problems</li>
+    <li>Implemented version control and unit tests to increase the quality of
+    software developed by our research group</li>
+    <li>Integrated new algorithms into existing FORTRAN software packages</li>
+    </ul>
 
+# Adjunct Professor at GC
+- company: Goshen College
+  position: Adjunct Professor
+  duration:   Fall 2013
+  summary: Taught and developed course material for Analytical Mechanics
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+# Graduate Teaching Assistant
+- company: Purdue Univserity and Goshen College
+  position: Teaching Assistant
+  duration: Fall 2007 &mdash; Fall 2010
+  summary: Helped to teach courses on electricity and magnetistm, electronics and general physics as and undergraduate at Goshen College and graduate student at Purdue University

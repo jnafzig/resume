@@ -1,0 +1,23 @@
+# Papers
+# uncomment the urls if you wish to display them, and add your own URL
+
+- paper: Accurate Reference Data for the Non-Additive Non-Interacting Kinetic Energy in Covalent Bonds.
+  authors: JN, Kaili Jiang, Adam Wasserman
+  journal: J. Chem. Theory Comput.
+  year: 2017
+  url: http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01050
+  #description:
+
+- paper: The Importance of Being Inconsistent.
+  authors: Adam Wasserman, JN, Kaili Jiang, Min-Cheol Kim, Eunji Sim, Kieron Burke.
+  journal: Annu. Rev. Phys. Chem.
+  year: 2017
+  url: http://dft.uci.edu/pubs/WNJK16.pdf
+  #description:
+
+- paper: Fragment-based Treatment of Delocalization and Static Correlation Errors in Density-Functional Theory.
+  authors: JN, and Adam Wasserman.
+  journal: J. Chem. Phys.
+  year: 2015
+  url: http://aip.scitation.org/doi/abs/10.1063/1.4937771
+  #description:
