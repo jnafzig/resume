@@ -6,7 +6,7 @@ description: "A resume for Jonathan Nafziger"
 markdown: kramdown
 sass:
   sass_dir: _sass
-  style: compressed
+#  style: compressed
 
 # Resume settings
 resume_avatar:                  "true"
