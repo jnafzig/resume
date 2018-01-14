@@ -1,12 +1,16 @@
 # Skills
 - skill: Programming
   description: >
-    <ul class="resume-item-list">
+    <ul class="resume-item-list horizontal-list">
     <li>Matlab </li>
-    <li>javascript/html/css </li>
-    <li>C/C++ </li>
+    <li>C++ </li>
     <li>Python </li>
     <li>Fortran </li>
+    <li>R </li><br>
+    <li>javascript </li>
+    <li>html </li>
+    <li>LaTeX </li>
+    <li>css </li>
     <li>git </li>
     <li>arduino </li>
     </ul>
@@ -14,7 +18,7 @@
 # Math and Physics
 - skill: Math and Physics
   description: >
-    <ul class="resume-item-list">
+    <ul class="resume-item-list horizontal-list">
     <li>Quantum Mechanics </li>
     <li>Electronic Structure </li>
     <li>Density Functional Theory </li>

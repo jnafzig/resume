@@ -158,6 +158,13 @@
   .resume-item-details,
   .resume-item-copy,
   .resume-item-list {
+    li {
+      list-style-type: none;
+    }
+    li:before {
+      content: '\00a0\2022\00a0\00a0';
+      font-size: 20px;
+    }
     a {
       color: #333;
       text-decoration: none;
@@ -172,6 +179,14 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+}
+
+/* =Inline bulleted lists
+-------------------------------------------------------------- */
+.horizontal-list{
+  li {
+  	display:inline-table;
+  }
 }
 
 // footer styles
