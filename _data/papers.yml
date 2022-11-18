@@ -1,5 +1,16 @@
 # Papers
 # uncomment the urls if you wish to display them, and add your own URL
+- paper: "pyCADMium: Chemical Atoms in Diatomic Molecules"
+  authors: V Chávez, J Nafziger, A Wasserman 
+  journal: Journal of Open Source Software
+  year: 2022
+  url: https://joss.theoj.org/papers/10.21105/joss.04459.pdf
+
+- paper: "Harpervalleybank: A domain-specific spoken dialog corpus"
+  authors: M Wu, J Nafziger, A Scodary, A Maas
+  journal: arXiv
+  year: 2020
+  url: https://arxiv.org/pdf/2010.13929
 
 - paper: Accurate Reference Data for the Non-Additive Non-Interacting Kinetic Energy in Covalent Bonds.
   authors: JN, Kaili Jiang, Adam Wasserman

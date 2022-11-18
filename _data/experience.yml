@@ -1,8 +1,29 @@
 # Jobs
-# Congruity Works
+
+- company: Gridspace
+  position: Machine Learning Data Engineer
+  duration: Apr, 2018 &mdash; Present
+  summary: >
+    <ul class="resume-item-list">
+    <li> Built and managed data collection platform Gridspace Mixer,
+      where users call in and talk to a partner in a specified domain
+     scenario. </li>
+    <li> Built a corresponding labeling tool where transcriptionists
+    efficiently correct errors in machine generated transcripts. </li>
+    <li> Deployed and managed these tools using Helm, and
+    Kubernetes on GCP. </li>
+    <li> Managed and grew user base to over 500 active users and
+    generated over 3,000 hours of domain specific speech
+    recognition data. </li>
+    <li> Designed and built dialog act and emotion recognition models </li>
+    <li> Worked with a team of Machine Learning Engineers to build
+    and deploy state of the art speech recognition and text to
+    speech models. </li>
+    </ul>
+
 - company: Congruity Works
   position: Web Development and Support
-  duration: Aug, 2017 &mdash; Present
+  duration: Aug, 2017 &mdash; Apr, 2018
   summary: Provided support and development for wordpress and drupal sites using html, css, javascript and php.
 
 # PhD and Postdoctoral Research
