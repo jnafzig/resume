@@ -5,11 +5,14 @@
     <li>Python </li>
     <li>Django </li>
     <li>React </li>
-    <li>Scrapy </li>
     <li>TensorFlow </li>
     <li>Keras </li>
     <li>JAX </li>
     <li>Flax </li>
+    <li>Numpy </li>
+    <li>Scipy </li>
+    <li>Pandas </li>
+    <li>Scrapy </li>
     <li>Kubernetes </li>
     <li>Helm </li>
     <li>GCP </li>
