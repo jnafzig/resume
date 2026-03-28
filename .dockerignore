@@ -1,7 +1,6 @@
 .git
-.git/
-.gitignore
 _site
 .sass-cache
+.jekyll-cache
 .DS_Store
 _vendor
