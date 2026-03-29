@@ -1,0 +1,72 @@
+%% Auto-generated from YAML data — do not edit directly.
+%% Run `uv run build_tex.py` to regenerate.
+
+\documentclass[letterpaper]{deedy-resume}
+
+\usepackage{hyperref}
+\hypersetup{
+  pdfauthor={<< config.resume_name >>},
+  pdftitle={<< config.resume_name >> Resume},
+}
+
+\begin{document}
+\pagenumbering{gobble}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\namesection{<< config.resume_name.split()[0] >>}{<< config.resume_name.split()[-1] >>}{
+\href{mailto:<< config.resume_contact_email >>}{<< config.resume_contact_email >>} | << config.resume_contact_telephone >> | \href{<< config.resume_social_links.resume_website_url >>}{<< config.resume_social_links.resume_website_url | replace("http://", "") >>}
+}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\vspace{\topsep}
+
+<% for job in experience if job.pdf is not defined or job.pdf != false %>
+\noindent\runsubsection{<< job.company >>}\\
+\descript{<< job.position >>}
+\location{<< job.duration | replace('&mdash;', '—') >>}
+\begin{tightitemize}
+<% for bullet in job.bullets %>
+	\item{<< bullet >>}
+<% endfor %>
+\end{tightitemize}
+<% if not loop.last %>
+\sectionspace
+<% endif %>
+
+<% endfor %>
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\sectionspace
+\section{Skills}
+
+<% for skill in skills %>
+\runsubsection{<< skill.skill >>}\\
+<% for bullet in skill.bullets %><< bullet >><% if not loop.last %>, <% endif %><% endfor %>
+
+<% if not loop.last %>
+\sectionspace
+<% endif %>
+<% endfor %>
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\sectionspace
+\section{Education}
+
+<% for edu in education %>
+\runsubsection{<< edu.uni >>} -- \descript{<< edu.degree >>} \location{<< edu.year >> | GPA: << edu.gpa >>}
+<% endfor %>
+
+\end{document}

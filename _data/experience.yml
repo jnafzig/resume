@@ -1,56 +1,61 @@
 # Jobs
 
+- company: Packback
+  position: Senior Software Engineer
+  duration: Jan, 2023 &mdash; Present
+  bullets:
+    - Lead Python developer for NLP, plagiarism detection, AI content detection, and LLM-based chat assistant services.
+    - Improved plagiarism check times from a one minute average down to 15 seconds.
+    - Architected a paraphrase detector using sentence similarity models and dynamic programming.
+    - Built an event processing system handling 5k events/s with novel visualizations of the student writing process.
+    - Developed NLP algorithms to generate actionable feedback on student writing.
+    - Migrated AI detection and ML grammar correction to a dedicated GPU server, achieving a 20x speedup.
+    - Built and deployed new Python services based on PyTorch, FastAPI, Helm, and Kubernetes.
+    - Transitioned Analytics Service to use BigQuery to resolve issues with flaking data pipelines.
+
 - company: Gridspace
   position: Machine Learning Data Engineer
-  duration: Apr, 2018 &mdash; Present
-  summary: >
-    <ul class="resume-item-list">
-    <li> Built and managed data collection platform Gridspace Mixer,
-      where users call in and talk to a partner in a specified domain
-     scenario. </li>
-    <li> Built a corresponding labeling tool where transcriptionists
-    efficiently correct errors in machine generated transcripts. </li>
-    <li> Deployed and managed these tools using Helm, and
-    Kubernetes on GCP. </li>
-    <li> Managed and grew user base to over 500 active users and
-    generated over 3,000 hours of domain specific speech
-    recognition data. </li>
-    <li> Designed and built dialog act and emotion recognition models </li>
-    <li> Worked with a team of Machine Learning Engineers to build
-    and deploy state of the art speech recognition and text to
-    speech models. </li>
-    </ul>
+  duration: Apr, 2018 &mdash; Jan, 2023
+  bullets:
+    - Built and managed data collection and labeling platforms using Django, Helm, and Kubernetes on GCP.
+    - Built a human-in-the-loop labeling tool for efficiently correcting machine-generated transcripts.
+    - Grew user base to 500+ active users, generating 3,000+ hours of domain-specific speech data.
+    - Designed and built dialog act and emotion recognition models.
+    - Collaborated with ML engineers to build and deploy state-of-the-art speech recognition and TTS models.
+  additional_bullets:
+    - Built and managed data collection platform Gridspace Mixer, where users call in and talk to a partner in a specified domain scenario.
 
 - company: Congruity Works
   position: Web Development and Support
   duration: Aug, 2017 &mdash; Apr, 2018
-  summary: Provided support and development for wordpress and drupal sites using html, css, javascript and php.
+  bullets:
+    - Provided support and development for wordpress and drupal sites using html, css, javascript and php.
 
 # PhD and Postdoctoral Research
 - company: Purdue University
   position: PhD and Postdoctoral Researcher
-  duration:  Jan, 2011 &mdash; Jul, 2017
-  summary: >
-    <ul class="resume-item-list">
-    <li>Developed novel computational methods
-     within the field of density functional theory</li>
-    <li>Translated abstract ideas into custom MATLAB software for use in
-    research</li>
-    <li>Wrote MATLAB software to solve problems involving ODEs and PDEs
-    as well as corresponding inverse problems</li>
-    <li>Implemented version control and unit tests to increase the quality of
-    software developed by our research group</li>
-    <li>Integrated new algorithms into existing FORTRAN software packages</li>
-    </ul>
+  duration: Jan, 2011 &mdash; Jul, 2017
+  bullets:
+    - Developed novel computational methods within the field of density functional theory.
+    - Wrote MATLAB software to solve problems involving ODEs and PDEs as well as corresponding inverse problems.
+    - Published 12 peer-reviewed papers and presented at 13 domestic and international conferences.
+  additional_bullets:
+    - Integrated new algorithms into existing FORTRAN software packages
+    - Translated abstract ideas into custom MATLAB software for use in research
+    - Implemented version control and unit tests to increase the quality of software developed by our research group
 
 # Adjunct Professor at GC
 - company: Goshen College
   position: Adjunct Professor
-  duration:   Fall 2013
-  summary: Taught and developed course material for Analytical Mechanics
+  duration: Fall 2013
+  pdf: false
+  bullets:
+    - Taught and developed course material for Analytical Mechanics
 
 # Graduate Teaching Assistant
 - company: Purdue University and Goshen College
   position: Teaching Assistant
   duration: Fall 2007 &mdash; Fall 2010
-  summary: Helped to teach courses on electricity and magnetistm, electronics and general physics as and undergraduate at Goshen College and graduate student at Purdue University
+  pdf: false
+  bullets:
+    - Helped to teach courses on electricity and magnetism, electronics and general physics as an undergraduate at Goshen College and graduate student at Purdue University

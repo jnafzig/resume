@@ -4,3 +4,9 @@ _site
 .DS_Store
 _vendor
 Gemfile.lock
+_latex/*.aux
+_latex/*.log
+_latex/*.out
+_latex/resume.tex
+_latex/resume.pdf
+resume.pdf

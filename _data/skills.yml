@@ -1,31 +1,30 @@
 # Skills
-- skill: Programming
-  description: >
-    <ul class="resume-item-list horizontal-list">
-    <li>Python </li>
-    <li>Django </li>
-    <li>React </li>
-    <li>TensorFlow </li>
-    <li>Keras </li>
-    <li>JAX </li>
-    <li>Flax </li>
-    <li>Numpy </li>
-    <li>Scipy </li>
-    <li>Pandas </li>
-    <li>Scrapy </li>
-    <li>Kubernetes </li>
-    <li>Helm </li>
-    <li>GCP </li>
-    </ul>
+- skill: Computer Science
+  bullets:
+    - Python
+    - Django
+    - FastAPI
+    - React
+    - PyTorch
+    - TensorFlow
+    - JAX
+    - Spacy
+    - Numpy
+    - Scipy
+    - Pandas
+    - Scrapy
+    - Kubernetes
+    - Helm
+    - GCP
+    - BigQuery
+    - Gitlab CI
+    - Terraform
 
-# Math and Physics
 - skill: Math and Physics
-  description: >
-    <ul class="resume-item-list horizontal-list">
-    <li>Quantum Mechanics </li>
-    <li>Electronic Structure </li>
-    <li>Density Functional Theory </li>
-    <li>Numerical ODEs and PDEs </li>
-    <li>Numerical Inverse Problems </li>
-    </ul>
-
+  bullets:
+    - Machine Learning
+    - Numerical ODEs and PDEs
+    - Numerical Inverse Problems
+    - Density Functional Theory
+    - Quantum Mechanics
+    - Electronic Structure

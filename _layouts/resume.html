@@ -45,7 +45,7 @@
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
-        <a href="https://jnafzig.github.io/latex-resume/resume.pdf" class="contact-button no-print" itemprop="email">PDF version</a>
+        <a href="{{ site.baseurl }}/resume.pdf" class="contact-button no-print">PDF version</a>
         </center>
       </header>
 
@@ -61,7 +61,16 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          {% if job.bullets %}
+          <ul class="resume-item-list">
+            {% for item in job.bullets %}
+            <li>{{ item }}</li>
+            {% endfor %}
+            {% for item in job.additional_bullets %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -113,7 +122,13 @@
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          {% if skill.bullets %}
+          <ul class="resume-item-list horizontal-list">
+            {% for item in skill.bullets %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endfor %}
 
