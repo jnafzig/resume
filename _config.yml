@@ -2,6 +2,8 @@
 title: "Jonathan Nafziger's Resume"
 description: "A resume for Jonathan Nafziger"
 
+baseurl: "/resume"
+
 # Build settings
 markdown: kramdown
 sass:
