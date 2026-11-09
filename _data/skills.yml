@@ -8,16 +8,16 @@
     - PyTorch
     - TensorFlow
     - JAX
-    - Spacy
-    - Numpy
-    - Scipy
+    - spaCy
+    - NumPy
+    - SciPy
     - Pandas
     - Scrapy
     - Kubernetes
     - Helm
     - GCP
     - BigQuery
-    - Gitlab CI
+    - GitLab CI
     - Terraform
 
 - skill: Math and Physics

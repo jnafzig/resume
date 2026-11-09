@@ -2,7 +2,7 @@
 
 - company: Packback
   position: Staff Software Engineer
-  duration: Jan, 2023 &mdash; Present
+  duration: Jan 2023 &mdash; Present
   bullets:
     - Lead Python developer for NLP, plagiarism detection, AI content detection, and LLM-based chat assistant services.
     - Improved plagiarism check times from a one minute average down to 15 seconds.
@@ -11,11 +11,11 @@
     - Developed NLP algorithms to generate actionable feedback on student writing.
     - Migrated AI detection and ML grammar correction to a dedicated GPU server, achieving a 20x speedup.
     - Built and deployed new Python services based on PyTorch, FastAPI, Helm, and Kubernetes.
-    - Transitioned Analytics Service to use BigQuery to resolve issues with flaking data pipelines.
+    - Transitioned the Analytics Service to use BigQuery to resolve issues with flaky data pipelines.
 
 - company: Gridspace
   position: Machine Learning Data Engineer
-  duration: Apr, 2018 &mdash; Jan, 2023
+  duration: Apr 2018 &mdash; Jan 2023
   bullets:
     - Built and managed data collection and labeling platforms using Django, Helm, and Kubernetes on GCP.
     - Built a human-in-the-loop labeling tool for efficiently correcting machine-generated transcripts.
@@ -27,23 +27,23 @@
 
 - company: Congruity Works and Professional Development
   position: Web Development and Support
-  duration: Aug, 2017 &mdash; Apr, 2018
+  duration: Aug 2017 &mdash; Apr 2018
   bullets:
-    - Provided support and development for wordpress and drupal sites using html, css, javascript and php.
+    - Provided support and development for WordPress and Drupal sites using HTML, CSS, JavaScript, and PHP.
     - Completed 11 Coursera courses including the Deep Learning Specialization, building foundational skills in machine learning and data science.
 
 # PhD and Postdoctoral Research
 - company: Purdue University
   position: PhD and Postdoctoral Researcher
-  duration: Jan, 2011 &mdash; Jul, 2017
+  duration: Jan 2011 &mdash; Jul 2017
   bullets:
     - Developed novel computational methods within the field of density functional theory.
     - Wrote MATLAB software to solve problems involving ODEs and PDEs as well as corresponding inverse problems.
     - Published 12 peer-reviewed papers and presented at 13 domestic and international conferences.
   additional_bullets:
-    - Integrated new algorithms into existing FORTRAN software packages
-    - Translated abstract ideas into custom MATLAB software for use in research
-    - Implemented version control and unit tests to increase the quality of software developed by our research group
+    - Integrated new algorithms into existing Fortran software packages.
+    - Translated abstract ideas into custom MATLAB software for use in research.
+    - Implemented version control and unit tests to increase the quality of software developed by our research group.
 
 # Adjunct Professor at GC
 - company: Goshen College
@@ -51,7 +51,7 @@
   duration: Fall 2013
   pdf: false
   bullets:
-    - Taught and developed course material for Analytical Mechanics
+    - Taught and developed course material for Analytical Mechanics.
 
 # Graduate Teaching Assistant
 - company: Purdue University and Goshen College
@@ -59,4 +59,4 @@
   duration: Fall 2007 &mdash; Fall 2010
   pdf: false
   bullets:
-    - Helped to teach courses on electricity and magnetism, electronics and general physics as an undergraduate at Goshen College and graduate student at Purdue University
+    - Helped teach courses on electricity and magnetism, electronics, and general physics as an undergraduate at Goshen College and graduate student at Purdue University.
